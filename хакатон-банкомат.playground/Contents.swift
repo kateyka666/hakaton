@@ -211,5 +211,5 @@ struct BankServer : BankApi {
 
 let kate_borovkova : UserData = User(userName: "Екатерина Боровкова", userCardId: "1111 2222 3333 4444", userCardPin: 1234, userCash: 7000, userBankDeposit: 10000, userPhone: "+7(999)-999-99-99", userPhoneBalance: 100)
 let bank = BankServer(user: kate_borovkova)
-let atmSber = ATM(userCardId: "1111 2222 3333 4444", userCardPin: 1234, someBank: bank, action: .buttontopUpDepositCash(topUp: 450))
+let atmSber = ATM(userCardId: "1111 2222 3333 4444", userCardPin: 1234, someBank: bank, action: .buttontopUpDepositCash(topUp: 350))
 
